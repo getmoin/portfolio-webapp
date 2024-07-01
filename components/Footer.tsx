@@ -12,9 +12,7 @@ function Footer() {
         <div className="footer-copywright w-full md:w-1/3 text-center md:text-left mb-4 md:mb-0">
           <h3 className="text-white">Khaja Moinuddin Mohammad</h3>
         </div>
-        <div className="footer-copywright w-full md:w-1/3 text-center mb-4 md:mb-0">
-          <h3 className="text-white">MIT License</h3>
-        </div>
+
         <div className="footer-body w-full md:w-1/3 text-center md:text-right">
           <ul className="footer-icons flex justify-center md:justify-end space-x-4">
             <li className="social-icons">

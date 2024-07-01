@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Image from "next/image";
 import MoonImg from "../public/moon2.png";
-import Footer from "@/components/Footer";
 import "./globals.css";
 import "../utils/polyfills";
 
@@ -35,7 +34,6 @@ export default function RootLayout({
             <div className="clouds"></div>
           </div>
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>

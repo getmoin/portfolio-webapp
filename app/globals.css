@@ -358,11 +358,10 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
-  bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
   clear: both;
-  position:absolute;
+  position: absolute;
   width: 100%;
 
 }
@@ -381,6 +380,10 @@ button:focus {
   text-align: center !important;
 }
 
+.footer-body-socials {
+  text-align: left !important;
+}
+
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
@@ -388,6 +391,9 @@ button:focus {
 
   .footer-body {
     text-align: center !important;
+  }
+  .footer-body-socials {
+    text-align: left !important;
   }
 }
 

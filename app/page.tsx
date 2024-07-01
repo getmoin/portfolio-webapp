@@ -1,5 +1,7 @@
 import Type from "@/components/ui/type-writer";
 import Home2 from "@/components/Home";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -32,6 +34,30 @@ export default function Home() {
             <a href="mailto:moin.mohdk@gmail.com">
             <h3 className="button button1">Contact Me</h3>
             </a>
+            <div className="footer-body-socials md:w-1/3 ">
+            <ul className="footer-icons flex justify-left md:justify-end space-x-4">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/getmoin"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub className="text-2xl" />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/kmmoin/"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn className="text-2xl" />
+                </a>
+              </li>
+          </ul>
+        </div>
           </div>
         </div>
       </div>
